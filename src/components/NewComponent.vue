@@ -16,6 +16,7 @@
             <div>SHOP</div>
         </div>
     </div>
+    
 </template>
 
 <script>
@@ -38,10 +39,12 @@
     display: flex;
     flex-direction: row;
     width: 65%;
-    
+    height: 85px;
     margin: auto;
     justify-content: space-between;
-    background-color: gray;
+    text-align: center;
+    margin-top: 1%;
+    /* background-color: gray; */
 }
 
 .logo{
@@ -58,7 +61,11 @@
 }
 
 .selected{
-    
+    font-weight: bold;
+    color: rgb(12, 124, 236);
+    border-bottom: 5px solid rgb(12, 124, 236);
 }
+
+
 
 </style>

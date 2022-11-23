@@ -4,16 +4,23 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <NewComponent/>
+    
+    <MainerSide/>
+    
+
+
   </div>
 </template>
 
 <script>
 import NewComponent from './components/NewComponent.vue'
+import MainerSide from './components/MainerSide.vue'
 
 export default {
   name: 'App',
   components: {
-    NewComponent
+    NewComponent,
+    MainerSide
   }
 }
 </script>
@@ -31,5 +38,6 @@ export default {
 
 *{
   font-family: 'Roboto Condensed', sans-serif;
+  margin: 0%;
 }
 </style>
