@@ -3,24 +3,25 @@
     
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <NewComponent/>
+    <HeaderSection/>
     
     <MainerSide/>
     
     <BluSide/>
 
+
   </div>
 </template>
 
 <script>
-import NewComponent from './components/NewComponent.vue'
+import HeaderSection from './components/HeaderSection.vue'
 import MainerSide from './components/MainerSide.vue'
 import BluSide from './components/BluSide.vue'
 
 export default {
   name: 'App',
   components: {
-    NewComponent,
+    HeaderSection,
     MainerSide,
     BluSide
   }

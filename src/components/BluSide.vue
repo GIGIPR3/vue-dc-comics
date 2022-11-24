@@ -79,6 +79,4 @@
     margin-top: 10%;
 }
 
-
-
 </style>
