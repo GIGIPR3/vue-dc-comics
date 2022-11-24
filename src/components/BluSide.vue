@@ -60,7 +60,7 @@
     flex-direction: row;
 }
 .container{
-    width: 65%;
+    width: 70%;
     margin: auto;
     display: flex;
     flex-direction: row;

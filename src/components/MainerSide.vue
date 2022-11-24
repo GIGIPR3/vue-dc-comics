@@ -28,7 +28,7 @@
 }
 
 .content{
-    width: 65%;
+    width: 70%;
     margin: auto;
     padding-top: 2%;
 }

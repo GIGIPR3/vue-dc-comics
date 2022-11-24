@@ -38,7 +38,7 @@
 .header{
     display: flex;
     flex-direction: row;
-    width: 65%;
+    width: 70%;
     height: 85px;
     margin: auto;
     justify-content: space-between;
