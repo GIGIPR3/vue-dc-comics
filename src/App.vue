@@ -7,7 +7,7 @@
     
     <MainerSide/>
     
-
+    <BluSide/>
 
   </div>
 </template>
@@ -15,12 +15,14 @@
 <script>
 import NewComponent from './components/NewComponent.vue'
 import MainerSide from './components/MainerSide.vue'
+import BluSide from './components/BluSide.vue'
 
 export default {
   name: 'App',
   components: {
     NewComponent,
-    MainerSide
+    MainerSide,
+    BluSide
   }
 }
 </script>
