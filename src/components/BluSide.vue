@@ -52,7 +52,7 @@
     font-size: small;
     color: white;
     padding: 3%;
-    
+    z-index: 2;
 }
 
 .flexRow{

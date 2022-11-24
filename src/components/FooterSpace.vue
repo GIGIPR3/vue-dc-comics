@@ -2,7 +2,7 @@
 
     <div class="sfondo">
 
-        <div>
+        <div class="contenitore">
 
             <div class="linkSection">
                 <div class="flex">
@@ -100,7 +100,9 @@
             </div>
 
 
-
+            <div class="ClogoBg">
+                <img src="../assets/vue-dc-comics-1/img/dc-logo-bg.png" alt="" align="right" class="logoBg">
+            </div>
 
 
 
@@ -136,12 +138,33 @@
 <style lang="scss" scoped>
 .sfondo {
     background-image: url(../assets/vue-dc-comics-1/img/footer-bg.jpg);
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.linkSection {
+.contenitore{
     width: 70%;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.CLogoBg{
+    display: flex;
+}
+
+.logoBg{
+    width: 60%;
+    right: 15%;
+    top: 45%; 
+    
+}
+
+
+.linkSection {
+/*     width: 70%; */
+    /* margin: auto; */
     padding-bottom: 5%;
     padding-top: 1%;
     display: flex;
