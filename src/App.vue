@@ -11,6 +11,8 @@
     
     <FooterSpace/>
 
+    <SignUpElement/>
+
   </div>
 </template>
 
@@ -19,6 +21,7 @@ import HeaderSection from './components/HeaderSection.vue'
 import MainerSide from './components/MainerSide.vue'
 import BluSide from './components/BluSide.vue'
 import FooterSpace from './components/FooterSpace.vue'
+import SignUpElement from './components/SignUpElement.vue'
 
 
 export default {
@@ -27,7 +30,8 @@ export default {
     HeaderSection,
     MainerSide,
     BluSide,
-    FooterSpace
+    FooterSpace,
+    SignUpElement
   }
 }
 </script>

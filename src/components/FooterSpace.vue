@@ -10,7 +10,7 @@
                     <div class="colonna1">
 
                         <div class="titoloW">
-                            <h3>DC COMICS</h3>
+                            <h4>DC COMICS</h4>
                         </div>
 
                         <div>
@@ -28,7 +28,7 @@
                         </div>
 
                         <div class="titoloW titolo2">
-                            <h3>SHOP</h3>
+                            <h4>SHOP</h4>
                         </div>
 
                         <div>
@@ -47,7 +47,7 @@
                     <div class="colonna">
 
                         <div class="titoloW">
-                            <h3>DC</h3>
+                            <h4>DC</h4>
                         </div>
                 
                         <div>
@@ -75,7 +75,7 @@
                     <div class="colonna">
 
                         <div class="titoloW">
-                            <h3>SITES</h3>
+                            <h4>SITES</h4>
                         </div>
 
                         <div>
@@ -116,14 +116,11 @@
 
         </div>
 
-
-
-
-
-
-
-
     </div>
+
+
+
+
 
 </template>
 
@@ -155,7 +152,7 @@
 }
 
 .logoBg{
-    width: 60%;
+    width: 90%;
     right: 15%;
     top: 45%; 
     
@@ -177,6 +174,7 @@
 .titoloW {
     color: white;
     /*     padding-top: 15%; */
+    white-space: nowrap;    
 }
 
 .titolo2 {
